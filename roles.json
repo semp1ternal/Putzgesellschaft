@@ -1,0 +1,122 @@
+[
+    {
+        "name": "Age of Empires",
+        "roleID": "405200515425763332",
+        "reaction": "<:AoE2:531696110805188608>"
+    },
+    {
+        "name": "Arma 3",
+        "roleID": "405199036639870988",
+        "reaction": "<:arma3:434241113239584768>"
+    },
+    {
+        "name": "Company of Heroes",
+        "roleID": "362396180929314819",
+        "reaction": "<:CoH:362304044179521537>"
+    },
+    {
+        "name": "Cross Out",
+        "roleID": "362395612966027264",
+        "reaction": "<:CrossOut:536399195523907594>"
+    },
+    {
+        "name": "Elite Dangerous",
+        "roleID": "362395861512093696",
+        "reaction": "<:elitedangerous:536706296196366336>"
+    },
+    {
+        "name": "Factorio",
+        "roleID": "411594207107481621",
+        "reaction": "<:factorio:536710948614832164>"
+    },
+    {
+        "name": "Squad",
+        "roleID": "488473948456091650",
+        "reaction": "<:Squad:536397790062968872>"
+    },
+    {
+        "name": "Fortnite",
+        "roleID": "427835877595545611",
+        "reaction": "<:fortnite:434241138958794752>"
+    },
+    {
+        "name": "For Honor",
+        "roleID": "487645114668285955",
+        "reaction": "<:ForHonor:536395320808964096>"
+    },
+    {
+        "name": "Grand Theft Auto V",
+        "roleID": "416683058129928193",
+        "reaction": "<:Gta:536398124298797057>"
+    },
+    {
+        "name": "Hearts of Iron 4",
+        "roleID": "397781237894479872",
+        "reaction": "<:heartsofiron4:536707816157872159>"
+    },
+    {
+        "name": "Heroes and Generals",
+        "roleID": "362396273506254849",
+        "reaction": "<:HG:536399598692990976>"
+    },
+    {
+        "name": "League of Legends",
+        "roleID": "362395390013734913",
+        "reaction": "<:LoL:536392716284723200>"
+    },
+    {
+        "name": "Minecraft",
+        "roleID": "362395741261660162",
+        "reaction": "<:minecraft:536708654846705680>"
+    },
+    {
+        "name": "PUBG",
+        "roleID": "377839689345925122",
+        "reaction": "<:pubg:434240848511631381>"
+    },
+    {
+        "name": "Rainbow 6: Siege",
+        "roleID": "427138577017864192",
+        "reaction": "<:r6:536697783315464193>"
+    },
+    {
+        "name": "Terraria",
+        "roleID": "421698555334492162",
+        "reaction": "<:terraria:536709695751192606>"
+    },
+    {
+        "name": "Sea of Thieves",
+        "roleID": "425436984673042435",
+        "reaction": "<:seaofthieves:536710923218452490>"
+    },
+    {
+        "name": "Schlacht um Mittelerde",
+        "roleID": "436310041474105345",
+        "reaction": "<:Lotrsum:536401444673290240>"
+    },
+    {
+        "name": "Starcraft 2",
+        "roleID": "436321356204867584",
+        "reaction": "<:starcraft2:536710897259773983>"
+    },
+    {
+        "name": "Total War",
+        "roleID": "408676649828352002",
+        "reaction": "<:Totalwar:536391372912197652>"
+    },
+    {
+        "name": "Warthunder",
+        "roleID": "405200142963048458",
+        "reaction": "<:warthunder:536705433205866506>"
+    },
+    {
+        "name": "Rocket League",
+        "roleID": "405199343612854275",
+        "reaction": "<:Rocketleague:536399883398021131>"
+    },
+    {
+        "name": "Battefield",
+        "roleID": "536696462835449856",
+        "reaction": "<:battlefield:536697484534349825>"
+    }
+]

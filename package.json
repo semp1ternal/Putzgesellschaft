@@ -1,0 +1,27 @@
+{
+  "name": "putzgesellschaft",
+  "version": "1.0.0",
+  "description": "A DiscordBot for Putzgesellschaft",
+  "main": "main.js",
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "enmap": "^4.6.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/semp1ternal/Putzgesellschaft.git"
+  },
+  "keywords": [
+    "DiscordBot"
+  ],
+  "author": "Sempiternal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/semp1ternal/Putzgesellschaft/issues"
+  },
+  "homepage": "https://github.com/semp1ternal/Putzgesellschaft#readme"
+}

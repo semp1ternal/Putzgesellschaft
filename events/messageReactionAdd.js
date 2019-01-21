@@ -7,11 +7,14 @@ module.exports = async (client, messageReaction, user) => {
     if (member.user.bot) return
 
     if (messageReaction.emoji.name === '✅' && message.channel.id === verifyChannel.id) {
-        member.addRole('536747666965790730').catch(console.error);
+        const verify = message.guild.roles.get('536747666965790730')
+        member.addRole(verify).catch(console.error);
         return messageReaction.remove(member).catch(console.error);
-    } else {
+        
+    } if (messageReaction.emoji.name === '❌' && message.channel.id === verifyChannel.id) {
         let reason = "Dieser wollte nicht Akzeptieren!"
-        member.kick(reason)
+            member.kick(reason)
+
     }
 
     const roles = require("../roles.json");

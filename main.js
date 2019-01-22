@@ -5,6 +5,8 @@ const Enmap = require('enmap')
 const client = new Discord.Client();
 const config = require("./settings.json")
 
+god was here
+
 fs.readdir("./events/", (err, files) => {
     if (err) return console.error(err);
     files.forEach(file => {

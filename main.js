@@ -32,4 +32,9 @@ fs.readdir("./commands/", (err, files) => {
 });
 
 client.login(config.token)
-// Hallo Welt
+
+client.on("message", (message) => {
+    if(!message.member.hasPermission("MANAGE_ROLES")) {
+        return message.re
+    }
+})

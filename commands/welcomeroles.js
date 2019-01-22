@@ -2,7 +2,8 @@ const { RichEmbed } = require('discord.js')
 
 
 exports.run = async (client, message, args) => {
-    
+    if(message.member.hasPermission("MANAGE_ROLES")) {
+
     const roles = require("../roles.json");
     await message.delete().catch(O_o => { });
 
@@ -18,17 +19,16 @@ exports.run = async (client, message, args) => {
 
     __Hier alle rollen:__`)
     .setColor(0xFFD600)
-
     const embed2 = new RichEmbed()
     .setFooter(`Jede Rolle kann durchs klicken des Emojis hinzugefügt oder wieder entfernt werden! \u200b \u200b \u200b \u200b  \u200b \u200b Durch hinzufügen einer Rolle kannst du getagt werden!`,
     'https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/emojidex/112/warning-sign_26a0.png')
     .setColor(0xFFD600)
-
-
+    
+    
     roles.forEach(role => {
         embed2.addField(role.name, role.reaction, true);
     });
-
+    
     message.channel.send(embed1);
     message.channel.send(embed2.addBlankField()).then(async msg => {
         await msg.react('531696110805188608')
@@ -43,7 +43,7 @@ exports.run = async (client, message, args) => {
         await msg.react("536398124298797057");
         await msg.react('536707816157872159');
         await msg.react('536399598692990976');
-       
+        
         message.channel.send(` \u200b `).then(async msg => {
             await msg.react('536392716284723200');
             await msg.react('536708654846705680');
@@ -60,6 +60,9 @@ exports.run = async (client, message, args) => {
             await msg.react('536697484534349825')
         })
     })
+    } else {
+        message.reply("U SHALL NOT PASS!") 
+    }
 }
 
 exports.help = {

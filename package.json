@@ -1,6 +1,6 @@
 {
   "name": "putzgesellschaft",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A DiscordBot for Putzgesellschaft",
   "main": "main.js",
   "dependencies": {

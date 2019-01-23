@@ -31,4 +31,4 @@ node_modules
 # ---> VisualStudioCode
 .settings
 
-settings.json
+#settings.json

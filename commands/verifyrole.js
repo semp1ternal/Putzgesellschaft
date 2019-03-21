@@ -24,5 +24,6 @@ exports.run = async (client, message, args) => {
 };
 
 exports.help = {
-    name: 'welcomeroles'
+    name: 'welcomeroles',
+    aliases: []
 }

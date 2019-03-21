@@ -66,5 +66,6 @@ exports.run = async (client, message, args) => {
 }
 
 exports.help = {
-    name: 'PGSS_welcomeroles'
+    name: 'PGSS_welcomeroles',
+    aliases: []
 }

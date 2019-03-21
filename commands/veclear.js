@@ -6,3 +6,6 @@ exports.run = (client, message, args) => {
             }, function(err){message.channel.send("ERROR: ERROR CLEARING CHANNEL.")})                        
     }
 }
+exports.help = {
+    name: 'veclear'
+}

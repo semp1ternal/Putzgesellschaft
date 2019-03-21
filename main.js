@@ -5,7 +5,8 @@ const Enmap = require('enmap')
 const client = new Discord.Client();
 const config = require("./settings.json")
 
-
+client.config = config;
+global.servers = {};
 
 fs.readdir("./events/", (err, files) => {
     if (err) return console.error(err);
@@ -28,6 +29,7 @@ fs.readdir("./commands/", (err, files) => {
         let commandName = file.split(".")[0];
         console.log(commandName, props);
         client.commands.set(commandName, props)
+
     })
 });
 
